@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+html{
+    scroll-behavior: smooth;
+}
+@media (max-wdith:992px){
+    header{
+        position: fixed;
+        padding: 0 0;
+        background: rgb(255, 255, 255, .5)
+    }
+    header ul{
+        position: fixed;
+        width: 100%;
+        top: -4px;
+        display: none;
+    }
+    header ul li a{
+        position: fixed;
+        margin: 0;
+        display: block;
+        text-align: center;
+        color: #ffff;
+        background: rgba(0,0,0,.5)
+    }
+}
+
+.roundimg{
+    transition: .5s;
+    position: relative;
+    top: -70px;
+    border-radius: 30px;
+    width: 15%;
+    height: auto;
+}
+/**********SLIDE*************/
+
+
+
+
+
+
+/**********COLOR*********/
+.colort .navi ul{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-70%);
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+.colort .navi ul li{
+    list-style: none;
+}
+
+.colort .navi ul li a{
+    display: block;
+    text-decoration: none;
+    height: 30px;
+    font-size: 24px;
+    background: #FFF;
+    width: 170px;
+    color: #262626;
+    margin: 4px 0;
+    padding-left: 15px;
+    text-transform: uppercase;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.colort .navi ul li a:hover{
+    background: #262626;
+    color: #fff;
+}
+
+#container{
+    width:100%;
+    height:100vh;
+}
+
+#container div h1{
+    transition: .5s;
+    color: white;
+    text-align: center;
+    line-height: 10em;
+    top: 50%;
+    widows: 100%;
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blacks;
+}
+
+#container div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/*********END*************/
+
+/**********Box LIst
+***********/
+.table{
+    position: relative;
+    top: -15%;
+    left:15%;
+    font-style:sans-serif;
+    font-size: 20px;
+    color: white;
+}
+/*END****************/
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+    background-color: #4e54c8/*#252930;*/
+}
+body #headshot p{
+    transition: .5s;
+    top:-75px;
+}
+
+body #headshot{
+    position: relative;
+    text-align: center;
+    top: -40px;
+}
+
+header{
+    z-index:1;
+    position: fixed;
+    padding: 0 100px;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    background: #929aef;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    transition: .5s;
+}
+
+
+#tabs ul{
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transition: .5s;
+}
+
+#tabs ul li
+{
+    list-style: none;
+}
+
+#tabs ul li a{
+    left: 600px;
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #EEE;
+    font-weight: bold;
+    transition: .5s;
+}
+#headshot p{
+    padding-left:500px;
+    padding-right: 500px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+
+#red h3{
+   position: relative;
+    text-align: center;
+    color: #fff; 
+}
+
+#red p{
+    padding-left:500px;
+    padding-right: 500px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+#purple h2{
+    
+    position: relative;
+    top: -10%;
+}
+#purple p a{
+    color: aqua;
+}
+
+#purple p{
+    top: -10%;
+    padding-left:500px;
+    padding-right: 500px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+#tabs ul li a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.context {
+    width: 100%;
+    position: absolute;
+    top: 150px;
+}
+
+.context h1{
+    text-align: center;
+    left: 50%;
+    color: #fff;
+    font-size: 50px;
+    top: -70px;
+}
+
+body h2{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
